@@ -1,0 +1,10 @@
+body{
+    font-family: Ubuntu, sans-serif;
+}
+div{
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    align-self: center;
+    font-weight: bold;
+}
