@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+/*img {
+  width: 200px;
+}*/
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: rgba(239, 91, 91, 1);
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.left-links{
+  font-weight: bold;
+  color: white;
+}
+.right-links{
+  color: white;
+}
+
+
+.header, .footer{
+
+
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.header{
+  background-color: rgba(36, 132, 111, 1);
+  align-content: flex-start;
+}
+
+.b1content{
+  background-color: rgba(36, 132, 111, 1);
+  display: flex;
+  flex: 1;
+  padding: 16px;
+  gap: 32px;
+  color: white;
+  align-items: center;
+  place-content: flex-end center;
+ 
+  flex-flow: row wrap-reverse;
+}
+.leftb1{
+  width: 300px;
+}
+.b2header{
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
+}
+.b2content{
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  padding: 16px;
+  gap: 32px;
+  align-items: flex-start;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
+}
+.iconcontent{
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  gap: 8px;
+}
+.iconimg{
+  /*border: none;
+  box-shadow: inset;*/
+  border-color: rgba(36, 132, 111, 1);
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.content{
+  display: flex;
+  /*flex: 1;*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+.footer{
+  align-content: flex-end;
+}
+
+ul{
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+#linky{
+  color: rgba(72, 77, 109, 1) ;
+  font-weight: bold;
+}
+
+a {
+  color: rgba(228, 223, 218, 1);
+  text-decoration: none;
+}
+/*gelo gray rgba(228, 223, 218, 1) browny rgba(212, 180, 131, 1)*/
