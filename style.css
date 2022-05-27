@@ -7,6 +7,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  overflow: visible;
 }
 
 /*img {
@@ -56,6 +57,9 @@ button {
   flex-flow: row wrap-reverse;
 }
 .leftb1{
+  width: 300px;
+}
+.rightb1{
   width: 300px;
 }
 .b2header{
