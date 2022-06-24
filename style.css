@@ -33,14 +33,16 @@ button {
 
 
 .header, .footer{
+  background-color: rgba(36, 132, 111, 1);
 
 
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  
 }
 .header{
-  background-color: rgba(36, 132, 111, 1);
+ 
   align-content: flex-start;
 }
 
@@ -51,8 +53,9 @@ button {
   padding: 16px;
   gap: 32px;
   color: white;
-  align-items: center;
-  place-content: flex-end center;
+  align-items: flex-end;  
+  justify-content: center;
+  place-content:  center;
  
   flex-flow: row wrap-reverse;
 }
@@ -60,7 +63,7 @@ button {
   width: 300px;
 }
 .rightb1{
-  width: 300px;
+  width: 250px;
 }
 .b2header{
   display: flex;
@@ -96,16 +99,9 @@ button {
   
 }
 
-.content{
-  display: flex;
-  /*flex: 1;*/
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 16px;
-}
 .footer{
   align-content: flex-end;
+  justify-content: center;
 }
 
 ul{
@@ -124,5 +120,66 @@ ul{
 a {
   color: rgba(228, 223, 218, 1);
   text-decoration: none;
+}
+q {
+  font-style: italic;
+  font-size: large;
+  
+  text-align: center;
+  
+}
+cite{
+  text-align: right;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.quotecontent {
+  background-color: rgba(72, 77, 109, 1);
+  display: flex;
+  justify-content: center; 
+  
+  
+  
+}
+
+.b3content{
+  color:  rgba(228, 223, 218, 1);
+  ;
+  width: 800px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+
+}
+.retangle{
+  display: flex;
+  margin: 1em;
+  padding: 3em;
+  background-color:  rgba(239, 91, 91, 1);
+  width: 800px;
+  border-radius: 8px;
+  align-self: center;
+  color: white;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  
+}
+
+#whiteborder{
+  
+  border: 1px solid rgba(228, 223, 218, 1);
+}
+
+.b4content{
+  display: flex;
+  align-items: flex-start;
+  
+  justify-content: center;
+  place-content:  center;
+  background-color: rgba(228, 223, 218, 1);
 }
 /*gelo gray rgba(228, 223, 218, 1) browny rgba(212, 180, 131, 1)*/
